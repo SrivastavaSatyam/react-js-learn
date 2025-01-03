@@ -34,11 +34,3 @@ To build the project for production, I ran:
 ```sh
 npm run build
 ```
-
-This created an optimized build of my application in the `dist` directory.
-
-### Learn More
-
-To learn more about Vite and React, I referred to the following resources:
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
