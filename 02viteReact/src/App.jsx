@@ -10,15 +10,18 @@ function App() {
   const addValue =() =>{
     // console.log("Value Added",Math.random());
     console.log("Incremented Counter ",counter  )
-    if(counter<20)
-      counter = counter+1
-    setcounter(counter)
+    // if(counter<20)
+    //   counter = counter+1
+    setcounter(prevCounter=>prevCounter+1) // values are passed in callback 
+    setcounter(prevCounter=>prevCounter+1)
+    setcounter(prevCounter=>prevCounter+1)
+    
   }
   const removeValue=()=>{
     console.log("Decremented Counter", counter)
-    if(counter>0)
-      counter=counter-1
-    setcounter(counter)
+    // if(counter>0)
+    //   counter=counter-1
+    setcounter(counter-1)
   }
 
   return (
